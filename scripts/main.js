@@ -1,9 +1,9 @@
 require.config({
-  baseUrl: '.',
+  baseUrl: 'node_modules',
   paths: {
-    'jquery'        : 'ext_modules/jquery-1.11.2',
-    'mocha'         : 'ext_modules/mocha/mocha',
-    'chai'          : 'ext_modules/chai-2.2.0',
+    'jquery'        : 'jquery/dist/jquery',
+    'mocha'         : 'mocha/mocha',
+    'chai'          : 'chai/chai',
   },
   urlArgs: 'bust=' + (new Date()).getTime()
 });
